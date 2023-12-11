@@ -303,6 +303,7 @@ img {
 }
 
 .hero__shots {
+  width: 100%;
   margin-top: 30px;
 }
 .latest-shots__header {
@@ -327,8 +328,8 @@ img {
   color: var(--accent-color);
 }
 .latest-shots__content {
-  display: flex;
-  gap: 20px;
+  /* display: flex; */
+  /* gap: 20px; */
   margin-bottom: 20px;
   overflow: hidden;
   /* width: calc(100% + 80px); */
@@ -437,3 +438,4 @@ img {
   text-align: center;
   color: #000;
 }
+
